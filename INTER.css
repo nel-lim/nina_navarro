@@ -1,0 +1,376 @@
+body{
+    font-family: 'Roboto', 'Merriweather';
+    color: #000;
+    height: 100%;
+    max-width: 1920%;
+    display: block;
+    margin: 0;
+    background-color: #E7E7E7;
+}
+
+.container{
+    max-width: 1220px;
+    height: 647px;
+    margin: 0 auto;
+    display: block;
+    background: #E7E7E7;
+}
+
+a, li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+/* Header Section */
+header, header .container{
+    height: 130px;
+}
+
+header .header_container .header_logo{
+    position: absolute;
+    left: 0;
+    top: 57%;
+    transform: translateY(-50%);
+}
+
+header .header_container{
+    position: relative;
+    height: 130px;
+    overflow: hidden;
+}
+
+nav{
+    float: right;
+    height: 100%;
+    line-height: 100px;
+    padding-top: 20px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+    padding: 0 20px 0 20px;
+}
+
+nav ul li a:hover{
+    color:  rosybrown;
+}
+
+/* Hero Section */
+
+.hero_expanded{
+    background: url("images/HERO.jpg") no-repeat top / cover;
+    position: absolute;
+    height: 894px;
+    width: 100%;
+    top: 130px;
+    /*box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);*/
+}
+
+.hero_expanded:before{
+    content: "";
+    width: 100%;
+    height: 894px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .3);
+}
+
+#hero{
+    position: relative;
+    background: transparent;
+    height: 894px;
+}
+
+#hero .site_name_tag{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    text-align: center;
+}
+
+#hero .site_name_tag h1{
+    font-family:'Merriweather', Roboto;
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+#hero .site_name_tag a{
+    background: #DBD6E9;
+    width: 200px;
+    height: 45px;
+    color: #1B1823;
+    font-size: 18px;
+    font-family: Roboto, 'Merriweather';
+    display: block;
+    line-height: 45px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+#hero .site_name_tag a:hover{
+    background: rosybrown;
+    color: #fff;
+}
+
+/*middle*/
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px;
+    font-family: 'Merriweather';
+}
+
+  .column {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+    flex-direction: column;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  /** Middle Boxes **/
+.container h2{
+    max-width: 1220px;
+    text-align: center;
+    display: block;
+    background: #E7E7E7;
+    margin-top: 10%;
+    font-family: 'Merriweather';
+}
+
+.middle_boxes{
+    text-align: center;
+}
+
+.mid_box{
+    width: 300px;
+    height: auto;
+    min-height: 250px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 25px;
+    padding: 50px 20px;
+    background: #E7E7E7;
+    border: 1px solid #000000;
+    margin-top: 0%;
+}
+.mid_box img{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+}
+
+.mid_box p{
+    line-height: 28px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+}
+
+.mid_box a{
+    width: 200px;
+    height: auto;
+    line-height: 45px;
+    background: white;
+    color: #000;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px solid #000000;
+}
+
+.mid_box a:hover{
+    background: rosybrown;
+    color: #fff;
+}
+
+
+/* blank module */
+
+.blank_module{
+    margin-top: auto;
+    margin: 80px 0;
+    min-height: 500px;
+}
+
+.blank_module .left_container{
+    width: 45%;
+    float: left;
+}
+
+.blank_module .left_container h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Merriweather';
+    text-align: left;
+}
+
+.blank_module .left_container p.one{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 50;
+    line-height: 1.8;
+}
+
+.blank_module .left_container p.two{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin: 50;
+    line-height: 1.8;
+}
+
+.blank_module img{
+    float: right;
+    width: 50%;
+    height: 86%;
+}
+
+/*footer*/
+
+
+
+.footer{
+    padding: 0px;
+    
+    margin: 0 auto;
+    display: block;
+    background: #E7E7E7;
+}
+
+.footer .left_container{
+    width: 45%;
+    float: left;
+}
+
+
+
+.footer .left_container h1{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Merriweather';
+    text-align: left;
+    margin-left: 61px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  form.footer input[type=text] {
+    position: absolute;
+    width: 203px;
+    height: 44.39px;
+    right: 255px;
+    top: 3261px;
+    background: #FFFDFD;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
+}
+  
+  form.footer button {
+    margin-top: 60px;
+    position: absolute;
+    width: 115px;
+    height: 44.39px;
+    right: 129px;
+    top: 3261px;
+    background: #423F3F;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #fff;
+}
+  
+  form.footer button:hover {
+    background: rosybrown;
+    color: #000;
+  }
+  
+  form.footer::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .div .icons{
+    width: fit-content;
+    float: right;
+  }
+  div {
+    display: block;
+}
+
+hr[Attributes] {
+    width: 101%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+.footer_copyright{
+    text-align: center;
+}
