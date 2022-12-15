@@ -1,16 +1,17 @@
 /*instructor john nel lim 
 for final hands-on exam*/
 body{
+    font-family: 'Roboto','Merriweather';
     color: #000;
     height: 100%;
-    max-width: 1920%;
+    max-width: 100%;
     display: block;
     margin: 0;
     background-color: #E7E7E7;
 }
 
 .container{
-
+max-width: 100%;
 }
 
 a, li{
@@ -20,16 +21,21 @@ a, li{
 
 .clearfix{
     overflow: auto;
+   
 }
 
 /* Header Section */
 header, header .container{
     height: 130px;
+    width:  100%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 header .header_container .header_logo{
     position: absolute;
     left: 0;
+    right: 50;
     top: 57%;
     transform: translateY(-50%);
 }
@@ -38,6 +44,7 @@ header .header_container{
     position: relative;
     height: 130px;
     overflow: hidden;
+    
 }
 
 nav{
@@ -58,6 +65,7 @@ nav ul li{
 }
 
 nav ul li a{
+    font-family: 'Roboto',Merriweather;
     font-size: 18px;
     font-weight: 400;
     color: #000;
@@ -72,11 +80,12 @@ nav ul li a:hover{
 /* Hero Section */
 
 .hero_expanded{
+    background-image: url("images/HERO.jpg");
     position: absolute;
     height: 894px;
     width: 100%;
     top: 130px;
-    /*box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.3);*/
+    box-shadow: rgba(15, 14, 14, 0.3);
 }
 
 .hero_expanded:before{
@@ -148,7 +157,7 @@ for final hands-on exam*/
     display: block;
     font-weight: bold;
     text-align: center;
-    margin: 60px;
+    margin: 50px;
     font-family: 'Merriweather';
 }
 
@@ -173,7 +182,7 @@ for final hands-on exam*/
     text-align: center;
     display: block;
     background: #E7E7E7;
-    margin-top: 10%;
+    margin: 50px;
     font-family: 'Merriweather';
 }
 
@@ -232,6 +241,12 @@ for final hands-on exam*/
 
 .blank_module{
 
+    position: absolute;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 130px;
+    
 }
 
 .blank_module .left_container{
@@ -265,7 +280,7 @@ for final hands-on exam*/
 .blank_module img{
     float: right;
     width: 50%;
-    height: 86%;
+    height: 50%;
 }
 
 /*footer*/
@@ -273,11 +288,8 @@ for final hands-on exam*/
 
 
 .footer{
-    padding: 0px;
-    
-    margin: 0 auto;
-    display: block;
-    background: #E7E7E7;
+    padding-top: 400px;
+    margin-top: 400px;
 }
 
 .footer .left_container{
@@ -304,7 +316,7 @@ for final hands-on exam*/
     width: 203px;
     height: 44.39px;
     right: 255px;
-    top: 3261px;
+    top: 2962px;
     background: #FFFDFD;
     border: 1px solid #000000;
     border-radius: 10px;
@@ -318,7 +330,7 @@ for final hands-on exam*/
     width: 115px;
     height: 44.39px;
     right: 129px;
-    top: 3261px;
+    top: 2962px;
     background: #423F3F;
     border: 1px solid #000000;
     border-radius: 10px;
@@ -344,30 +356,9 @@ for final hands-on exam*/
     display: block;
 }
 
-hr[Attributes] {
-    width: 101%;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-top-color: rgb(0, 0, 0);
-    border-right-color: rgb(0, 0, 0);
-    border-bottom-color: rgb(0, 0, 0);
-    border-left-color: rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-}
 
-hr {
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-}
+
+
 
 
 .footer_copyright{
