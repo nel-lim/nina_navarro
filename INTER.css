@@ -1,5 +1,6 @@
+/*instructor john nel lim 
+for final hands-on exam*/
 body{
-    font-family: 'Roboto', 'Merriweather';
     color: #000;
     height: 100%;
     max-width: 1920%;
@@ -9,11 +10,7 @@ body{
 }
 
 .container{
-    max-width: 1220px;
-    height: 647px;
-    margin: 0 auto;
-    display: block;
-    background: #E7E7E7;
+
 }
 
 a, li{
@@ -75,7 +72,6 @@ nav ul li a:hover{
 /* Hero Section */
 
 .hero_expanded{
-    background: url("images/HERO.jpg") no-repeat top / cover;
     position: absolute;
     height: 894px;
     width: 100%;
@@ -115,6 +111,11 @@ nav ul li a:hover{
     line-height: 50px;
     margin-bottom: 15px;
 }
+
+
+/*instructor john nel lim 
+for final hands-on exam*/
+
 
 #hero .site_name_tag a{
     background: #DBD6E9;
@@ -230,9 +231,7 @@ nav ul li a:hover{
 /* blank module */
 
 .blank_module{
-    margin-top: auto;
-    margin: 80px 0;
-    min-height: 500px;
+
 }
 
 .blank_module .left_container{
@@ -374,3 +373,7 @@ hr {
 .footer_copyright{
     text-align: center;
 }
+
+
+/*instructor john nel lim 
+for final hands-on exam*/
